@@ -27,6 +27,6 @@ elif (30 <= imc < 34.9):
 elif (35 <= imc < 39.9):
     print(f"O valor do IMC é: {imc:.1f}")
     print("Obesidade severa (grau II)")
-elif (imc > 40):
+else:
     print(f"O valor do IMC é: {imc:.1f}")
     print("Obesidade muito severa (grau III)")
